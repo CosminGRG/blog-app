@@ -1,0 +1,17 @@
+.posts-container {
+    order: 1;
+}
+
+.side-container {
+    order: 2;
+}
+
+@media (max-width: 767px) {
+    .posts-container {
+        order: 2;
+    }
+
+    .side-container {
+        order: 1;
+    }
+}

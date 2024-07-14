@@ -1,0 +1,56 @@
+
+.card-styling {
+    margin-bottom: 20px;
+    width: auto !important;
+}
+
+.card-img-left {
+    height: 100%;
+    width: auto;
+    object-fit:cover;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.post-container .post-body {
+    flex-grow: 1;
+}
+
+.post-body p {
+    margin-bottom: 0;
+}
+
+.post-button-group {
+    /* position: absolute;
+    bottom: 10px;
+    right: 10px; */
+}
+
+.post-extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.post-title {
+    font-size: 20px !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-meta {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -10px;
+}

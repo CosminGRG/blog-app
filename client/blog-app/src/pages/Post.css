@@ -1,0 +1,22 @@
+
+.post-title-container {
+    font-size: 26px;
+}
+
+.post-meta {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.post-content-container {
+
+    background-color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 0.375rem;
+}
+
+.post-content-container p {
+    
+}
