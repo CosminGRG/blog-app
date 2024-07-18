@@ -93,7 +93,7 @@ public class CommentController : ControllerBase
         return Ok(commentDTOs);
     }
 
-    [AllowAnonymous]
+    [Authorize(Roles = "Admin, User")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateCommentDTO commentModel)
     {
